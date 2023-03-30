@@ -1,9 +1,3 @@
-//
-//  CryptoTrackerApp.swift
-//  CryptoTracker
-//
-//  Created by Vithushan Logan on 2023-03-31.
-//
 
 import SwiftUI
 
@@ -11,7 +5,11 @@ import SwiftUI
 struct CryptoTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                HomeView()
+                    .navigationBarHidden(true)
+            }
+           
         }
     }
 }
