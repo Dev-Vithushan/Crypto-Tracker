@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7219C28029D74CAA00575F63 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219C27F29D74CAA00575F63 /* CircleButtonAnimationView.swift */; };
 		7289064A29D6136200643707 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289064929D6136200643707 /* CryptoTrackerApp.swift */; };
 		7289064C29D6136200643707 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289064B29D6136200643707 /* ContentView.swift */; };
 		7289065129D6136700643707 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7289065029D6136700643707 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7219C27F29D74CAA00575F63 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		7289064629D6136200643707 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7289064929D6136200643707 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		7289064B29D6136200643707 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				7289066429D61D1B00643707 /* CircleButtonView.swift */,
+				7219C27F29D74CAA00575F63 /* CircleButtonAnimationView.swift */,
 			);
 			path = CircleButton;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				7289064A29D6136200643707 /* CryptoTrackerApp.swift in Sources */,
 				7289066529D61D1B00643707 /* CircleButtonView.swift in Sources */,
 				7289065B29D6163E00643707 /* Color.swift in Sources */,
+				7219C28029D74CAA00575F63 /* CircleButtonAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
